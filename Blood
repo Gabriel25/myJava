@@ -1,0 +1,56 @@
+/**
+ * This class was created for recording blood measurements of a person and the days that they were taken
+ * 
+ * @author Gavriil Gavriilidis 
+ * 30/11/2013
+ *
+ */
+
+
+public class Blood {
+
+	private int systolic;
+	private int diastolic;
+	private Day day;
+	
+	public Blood(int systolic, int diastolic, Day day){
+		this.systolic = systolic;
+		this.diastolic = diastolic;
+		this.day = day;
+	}
+
+	public int getSystolic() {
+		return systolic;
+	}
+
+	public void setSystolic(int systolic) {
+		this.systolic = systolic;
+	}
+
+	public int getDiastolic() {
+		return diastolic;
+	}
+
+	public void setDiastolic(int diastolic) {
+		this.diastolic = diastolic;
+	}
+
+	public Day getDay() {
+		return day;
+	}
+
+	public void setDay(Day day) {
+		this.day = day;
+	}
+
+	
+	 
+	@Override
+	public String toString() {
+		return "Systolic: " + systolic + " diastolic: " + diastolic
+				+ " date: " + day;
+	}
+
+
+
+}
