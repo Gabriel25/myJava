@@ -2,6 +2,11 @@
  * 
  * @author Gavriil Gavriilidis
  *
+ * This program takes a given string and returns it
+ * with the odd words in uppercase and the even reversed. 
+ * A word is a sequence of characters separated by one or
+ * more consequtive spaces. There was no requirement to 
+ * handle new line characters. 
  */
 public class StringUpperReverse {
 
